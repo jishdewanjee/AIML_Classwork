@@ -18,6 +18,30 @@ The project implements a data-driven architecture using YAML configuration files
 
 ## 2. Architecture
 
+<<<<<<< HEAD
+=======
+### Git LFS Configuration
+
+This repository uses [Git Large File Storage (LFS)](https://git-lfs.github.com/) to efficiently manage large binary files. The following file types are automatically tracked with Git LFS:
+
+- **CSV files** (`*.csv`) - Dataset files in the `data/` directory
+- **Pickle files** (`*.pkl`) - Serialized Python objects
+- **Parquet files** (`*.parquet`) - Columnar data files
+- **PDF files** (`*.pdf`) - Documentation and resources
+
+Git LFS is automatically installed in the dev container during build. When cloning this repository, ensure you have Git LFS installed:
+
+```bash
+# Install Git LFS (if not already installed)
+git lfs install
+
+# Clone repository (LFS files are automatically downloaded)
+git clone https://github.com/gperdrizet/FSA_devops.git
+```
+
+GitHub Pages automatically resolves LFS pointers, so dataset download links work seamlessly for end users without any special configuration.
+
+>>>>>>> upstream/main
 ### Repository Structure
 
 ```
@@ -156,8 +180,11 @@ All internal URLs use Jekyll's `relative_url` filter, which automatically adjust
 
 ## 5. Development Workflow
 
+<<<<<<< HEAD
 ## 5. Development Workflow
 
+=======
+>>>>>>> upstream/main
 ### Branch Strategy
 
 - **`main`**: Production branch - triggers automatic deployment to GitHub Pages
@@ -177,6 +204,7 @@ All internal URLs use Jekyll's `relative_url` filter, which automatically adjust
 
 ### Local Development
 
+<<<<<<< HEAD
 The repository includes a dev container configuration for consistent development environments.
 
 Jekyll's live reload enables rapid iteration - most changes appear in your browser within seconds:
@@ -190,6 +218,28 @@ make serve-local
 ```
 
 **Note**: Local server uses production config with baseurl, so URLs will include `/FSA_devops` prefix.
+=======
+The repository includes a dev container configuration for consistent development environments. The Jekyll server starts automatically when you attach to the container.
+
+**Manual Server Start**:
+```bash
+# Navigate to site directory and start Jekyll server with empty baseurl for local development
+cd site && bundle exec jekyll serve --baseurl ''
+
+# Site available at http://localhost:4000/
+# Automatically rebuilds on file changes
+```
+
+**Using Make**:
+```bash
+# Alternative: use make target (includes baseurl for GitHub Pages config)
+make serve-local
+
+# Site available at http://localhost:4000/FSA_devops
+```
+
+**Note**: The `--baseurl ''` flag is important for local development in Codespaces/dev containers, as it overrides the production baseurl setting. Without it, the site expects to be accessed at `/FSA_devops/` which doesn't work with port forwarding.
+>>>>>>> upstream/main
 
 ### Content Updates
 

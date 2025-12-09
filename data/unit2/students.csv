@@ -1,9 +1,3 @@
-name,age,grade,subject
-Alice,20,85,Math
-Bob,19,92,Science
-Charlie,21,78,Math
-Diana,20,88,Science
-Eva,19,95,Math
-Frank,22,82,Science
-Grace,20,90,Math
-Henry,21,87,Science
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc6bfd80d8b8adbc93c3c81a4585913f166a5a803d88d60624ed7d86c074097b
+size 340

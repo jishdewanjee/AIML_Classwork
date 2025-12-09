@@ -11,7 +11,12 @@ permalink: /resources/
 2. [Statistics Overview]({{ '/resource_pages/statistics.html' | relative_url }})
 3. [Data Wrangling Overview]({{ '/resource_pages/data_wrangling.html' | relative_url }})
 4. [Feature Engineering Overview]({{ '/resource_pages/feature_engineering.html' | relative_url }})
+<<<<<<< HEAD
 4. [Regression Overview]({{ '/resource_pages/regression.html' | relative_url }})
+=======
+5. [Regression Overview]({{ '/resource_pages/regression.html' | relative_url }})
+6. [Classification Overview]({{ '/resource_pages/classification.html' | relative_url }})
+>>>>>>> upstream/main
 
 ---
 ## Cheat sheets & syntax reference
@@ -74,6 +79,16 @@ permalink: /resources/
 ---
 ## Incremental capstone slides
 
+<<<<<<< HEAD
 ### Unit 2: applied data science with Python
 
 1. [Incremental capstone 1: import and clean data]({{ '/assets/slides/Capstone_Session_1.pdf' | relative_url }}){:target="_blank"}
+=======
+### Unit 2: Applied Data Science with Python
+
+1. [Incremental capstone 1: import and clean data]({{ '/assets/slides/Capstone_Session_1.pdf' | relative_url }}){:target="_blank"}
+
+### Unit 3: Machine Learning
+
+1. [Incremental capstone 5: Florida Bike Rentals]({{ '/assets/slides/Inc5_Capstone_FloridaBikeRentals.pdf' | relative_url }}){:target="_blank"}
+>>>>>>> upstream/main
