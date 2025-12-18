@@ -176,9 +176,6 @@ units:
           - name: "Activity"
             file: "Lesson_19_activity.ipynb"
           - name: "Activity solution"
-<<<<<<< HEAD
-            file: "Lesson_19_activity_solution.ipynb"
-=======
             file: "Lesson_19_activity_solution.ipynb"
 
       - number: "20"
@@ -189,9 +186,6 @@ units:
             file: "Lesson_20_demo.ipynb"
           - name: "Activity"
             file: "Lesson_20_activity.ipynb"
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
       
       - number: "INC6"
         title: "Save the Princess"
@@ -199,9 +193,8 @@ units:
         notebooks:
           - name: "Save the Princess Starter"
             file: "INC_6_Save_the_Princess.ipynb"
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
+          - name: "Save the Princess (Solution)"
+            file: "INC_6_Save_the_Princess_Solution.ipynb"
 
       - number: "21"
         title: "Ensemble methods"
@@ -209,4 +202,12 @@ units:
         notebooks:
           - name: "Demo"
             file: "Lesson_21_demo.ipynb"
->>>>>>> upstream/main
+
+      - number: "22"
+        title: "Unsupervised learning"
+        topics: "Clustering, dimensionality reduction"
+        notebooks:
+          - name: "Demo"
+            file: "Lesson_22_demo.ipynb"
+          - name: "Activity"
+            file: "Lesson_22_activity.ipynb"

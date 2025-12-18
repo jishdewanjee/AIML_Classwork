@@ -88,9 +88,6 @@ units:
           - name: "Distance-to-water data"
             file: "distance_to_water.csv"
           - name: "Preprocessed distance-to-water data"
-<<<<<<< HEAD
-            file: "distance_to_water_preprocessed.csv"
-=======
             file: "distance_to_water_preprocessed.csv"
 
       - number: "INC5"
@@ -108,9 +105,6 @@ units:
             file: "diabetes_prediction_train.csv"
           - name: "Kaggle diabetes prediction testing data"
             file: "diabetes_prediction_test.csv"
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
 
       - number: "INC6"
         title: "Incremental capstone 6"
@@ -124,4 +118,10 @@ units:
             file: "video_games_sales.csv"
           - name: "Wine Data"
             file: "wine_data.csv"
->>>>>>> upstream/main
+
+      - number: "22"
+        title: "Unsupervised learning: california_housing"
+        assignment: "Lesson 22 activity"
+        datasets:
+          - name: "Housing data for clustering"
+            file: "housing.csv"
