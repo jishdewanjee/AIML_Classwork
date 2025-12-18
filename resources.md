@@ -16,6 +16,10 @@ permalink: /resources/
 =======
 5. [Regression Overview]({{ '/resource_pages/regression.html' | relative_url }})
 6. [Classification Overview]({{ '/resource_pages/classification.html' | relative_url }})
+<<<<<<< HEAD
+>>>>>>> upstream/main
+=======
+7. [Ensemble Learning Overview]({{ '/resource_pages/ensemble_learning.html' | relative_url }})
 >>>>>>> upstream/main
 
 ---

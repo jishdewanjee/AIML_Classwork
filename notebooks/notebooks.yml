@@ -199,4 +199,14 @@ units:
         notebooks:
           - name: "Save the Princess Starter"
             file: "INC_6_Save_the_Princess.ipynb"
+<<<<<<< HEAD
+>>>>>>> upstream/main
+=======
+
+      - number: "21"
+        title: "Ensemble methods"
+        topics: "Ensemble learning: bagging, boosting, stacking"
+        notebooks:
+          - name: "Demo"
+            file: "Lesson_21_demo.ipynb"
 >>>>>>> upstream/main
