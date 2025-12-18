@@ -1,10 +1,23 @@
-__pycache__
-.ruby-lsp
-*.ipynb_checkpoints
-.venv
-<<<<<<< HEAD
-.vscode
-=======
-.vscode
+﻿# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.class
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment and system files
+.env
 .DS_Store
->>>>>>> upstream/main
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs or temporary files
+*.log
+*.tmp
